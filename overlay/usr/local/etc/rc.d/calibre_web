@@ -26,7 +26,7 @@ load_rc_config $name
 pidfile="/var/run/${name}/${name}.pid"
 
 #shebang error?
-command="env CALIBRE_DBPATH=${calibre_web_dbpath} python3 /usr/local/app/calibre-web/cps.py"
+command="env CALIBRE_DBPATH=${calibre_web_dbpath} python3 /usr/local/app/calibre-web/cps.py -i 0.0.0.0"
 #command_args ???
 #required_dirs="${calibre_web_dbpath}"
 

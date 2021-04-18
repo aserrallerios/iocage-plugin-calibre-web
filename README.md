@@ -18,5 +18,4 @@ In freenas shell run:
 * `iocage fetch -P calibre-web.json --name calibre-web dhcp=on --branch 'test'`
 
 ## TODO
-1. Change the user that runs the service (from root to calibreweb)
-2. Add settings (like https://github.com/timsavage/iocage-plugin-dnsmasq or https://github.com/gitbulb/iocage-plugin-openvpn) when available in Freenas UI
+1. Add settings (like https://github.com/timsavage/iocage-plugin-dnsmasq or https://github.com/gitbulb/iocage-plugin-openvpn) when available in Freenas UI

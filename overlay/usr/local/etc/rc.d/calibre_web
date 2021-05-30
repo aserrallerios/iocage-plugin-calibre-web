@@ -24,6 +24,7 @@ load_rc_config $name
 : ${calibre_web_logfile:=/var/log/calibre-web/calibre-web.log}
 
 pidfile="/var/run/${name}/${name}.pid"
+procname=python3
 
 #shebang error?
 command="env CALIBRE_DBPATH=${calibre_web_dbpath} python3 /usr/local/app/calibre-web/cps.py -i 0.0.0.0"

@@ -7,7 +7,7 @@ echo "Update Calibre-Web installation"
 
 git_url="https://github.com/janeczku/calibre-web.git"
 
-installdir=$installdir
+installdir="/usr/local/app/calibre-web"
 
 echo "Re-init git"
 rm -rf $installdir/.git
